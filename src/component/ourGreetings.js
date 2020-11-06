@@ -29,27 +29,28 @@ function ourGreetings() {
         </ul>
         <h2>有人在基督裏,他就是新造的了,舊事已過,都變成新的了.  原能與這段经文與你共享,無論以往的日子是怎樣的过都已成過去,不要再回頭望了,新嘅日子來臨就係一個新人,新嘅開始有新希望,但願日子過得充實同埋愉快。</h2>
         <ul className='cards__items'>
+        <Greeting
+            url="https://youtu.be/ohzCow2XhDg"
+            text='哥林多前書:13:7 凡事包容，凡事相信，凡事盼望，凡事忍耐。'
+            label='Pandola姨和Uncle Brian的祝福'
+          />
           <Greeting
             url="https://youtu.be/PFf-rZA31l0"
-            text='哥林多前書:13:7 凡事包容，凡事相信，凡事盼望，凡事忍耐。'
-            label='Auntie Tammy的祝福'
+            text='彼得前書4:9 你們要互相款待，不發怨言。'
+            label='Auntie Tammy和Uncle Raymond的祝福'
           />
           <Greeting
             url="https://youtu.be/rmdeBFDyJk4"
             text='恭喜柔柔同佢先生永遠幸福快樂💞開開心心😍生活愉快💌🎊🌻'
             label='雄舅父舅母的祝福'
           />
-          <Greeting
-            url="https://youtu.be/30bGqztJwn4"
-            text='恭喜晒！祝柔柔和佢先生永遠幸福快樂，早生貴子🌻🌹🥂亦都恭喜雪梅和亞樸做外父，外母🎉🥳'
-            label='Uncle Lawrence的祝福'
-          />
+
         </ul>
         <ul className='cards__items'>
         <Greeting
-            url="https://youtu.be/71wnWjeLvP8"
-            text='彼得前書4:9 你們要互相款待，不發怨言。'
-            label='琪琪的祝福'
+            url="https://youtu.be/30bGqztJwn4"
+            text='恭喜晒！祝柔柔和佢先生永遠幸福快樂，早生貴子🌻🌹🥂亦都恭喜雪梅和亞樸做外父，外母🎉🥳'
+            label='Uncle Lawrence的祝福'
           />
         <Greeting
             url="https://youtu.be/HqPfmXbw6rI"
@@ -64,10 +65,10 @@ function ourGreetings() {
         </ul>
 
       <ul className='cards__items'>
-      <Greeting
-            url="https://youtu.be/ohzCow2XhDg"
+          <Greeting
+            url="https://youtu.be/71wnWjeLvP8"
             text=''
-            label='Pandola姨和Uncle Brian的祝福'
+            label='琪琪的祝福'
           />
         <Greeting
             url="https://youtu.be/dtRH1O8FYxY"
