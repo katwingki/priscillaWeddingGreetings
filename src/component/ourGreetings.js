@@ -64,6 +64,11 @@ function ourGreetings() {
         </ul>
 
       <ul className='cards__items'>
+      <Greeting
+            url="https://youtu.be/ohzCow2XhDg"
+            text=''
+            label='Pandola姨和Uncle Brian的祝福'
+          />
         <Greeting
             url="https://youtu.be/dtRH1O8FYxY"
             text=''
