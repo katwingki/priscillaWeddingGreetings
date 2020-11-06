@@ -1,11 +1,14 @@
 import React from 'react'
-import mainSection from '../mainSection'
+import Greeting from '../Greeting'
+import MainSection from '../MainSection'
+import '../../App.css';
 
 function Home() {
   return (
-    <div>
-      <mainSection />
-    </div>
+    <>
+      <MainSection />
+      <Greeting />
+    </>
   )
 }
 

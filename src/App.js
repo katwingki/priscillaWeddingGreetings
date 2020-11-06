@@ -2,7 +2,8 @@ import './App.css';
 import Navbar from './component/Navbar';
 import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
 import Home from './component/pages/Home';
-import mainSection from './component/mainSection';
+import MainSection from './component/MainSection';
+import ourGreetings from './component/ourGreetings';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/" exact component={mainSection}/>
+        <Route path="/" exact component={Home}/>
+        <Route path="/ourGreetings" component={ourGreetings} />
       </Switch>
     </Router>
     </>

@@ -26,7 +26,7 @@ video {
 }
 .main-container > h2 {
   color: #fff;
-  font-size: 30px;
+  font-size: 50px;
   margin-top: -100px;
 }
 .main-container > p {
@@ -35,4 +35,54 @@ video {
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+}
+
+audio {
+  filter: sepia(80%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 250px;
+  height: 50px;
+  padding: 15px;
+  justify-content: center;
+}
+
+img {
+  width: 300px;
+  height: 350px;
+  margin-top: 1%;
+}
+
+@media screen and (max-width: 960px) {
+  .main-container > h2 {
+    font-size: 30px;
+    margin-top: -150px;
+  }
+  img {
+    width: 200px;
+    height: 250px;
+  }
+  audio {
+    filter: sepia(80%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-container > h2 {
+    font-size: 30px;
+    margin-top: -100px;
+  }
+  img {
+    width: 200px;
+    height: 250px;
+  }
+  audio {
+    filter: sepia(80%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    justify-content: center;
+  }
 }
