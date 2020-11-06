@@ -11,6 +11,7 @@ function mainSection() {
       <video src='/videos/WeddingBackground.mp4' autoPlay loop muted />
 
       <h2>㊗️福您们  白头到老 永结同❤️</h2>
+
       <img src='/images/mainImage.jpeg' />
       <div>
       <audio src='/audios/CanonInD.mpeg' controls autoPlay loop />

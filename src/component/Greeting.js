@@ -1,12 +1,11 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
 import ReactPlayer from 'react-player';
 
 function Greeting(props) {
   return (
     <>
       <li className='cards__item'>
-        {/* <Link className='cards__item__link' to={props.path}> */}
+
         <div className='cards__item__link'>
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             {/* <img
@@ -23,7 +22,7 @@ function Greeting(props) {
             <h5 className='cards__item__text'>{props.text}</h5>
           </div>
         </div>
-        {/* </Link> */}
+
       </li>
     </>
   )

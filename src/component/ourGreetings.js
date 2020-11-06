@@ -7,7 +7,7 @@ function ourGreetings() {
   return (
     <div className='cards'>
        <video src='/videos/RedVideo.mp4' autoPlay loop muted />
-    <h1>我们送来的㊗️福<i class="fas fa-hand-holding-heart fa-3x"></i></h1>
+    <h1>我们送来的㊗️福<i class="fas fa-angle-double-right"></i><i class="fas fa-angle-double-right"> </i><i class="fas fa-hand-holding-heart fa-3x"></i></h1>
     <div className='cards__container'>
       <div className='cards__wrapper'>
         <ul className='cards__items'>
@@ -27,7 +27,7 @@ function ourGreetings() {
             label='哥哥的祝福'
           />
         </ul>
-        <h2>有人在基督裏,他就是新造的了,舊事已過,都變成新的了.  原能與這段经文與你共享,無論以往的日子是怎樣的过都已成過去,不要再回頭望了,新嘅日子來臨就係一個新人,新嘅開始有新希望,但願日子過得充實同埋愉快。 ---妈咪</h2>
+        <h2>有人在基督裏,他就是新造的了,舊事已過,都變成新的了.  原能與這段经文與你共享,無論以往的日子是怎樣的过都已成過去,不要再回頭望了,新嘅日子來臨就係一個新人,新嘅開始有新希望,但願日子過得充實同埋愉快。</h2>
         <ul className='cards__items'>
           <Greeting
             url="https://youtu.be/HMF3oT4jIaE"
@@ -63,11 +63,16 @@ function ourGreetings() {
           />
         </ul>
 
-      <ul className='single__item'>
+      <ul className='cards__items'>
         <Greeting
             url="https://youtu.be/dtRH1O8FYxY"
             text=''
             label='Aiden的祝福'
+          />
+          <Greeting
+            url="https://youtu.be/rbMRrExE0e8"
+            text=''
+            label='Aiden-All Of Me'
           />
         </ul>
       </div>

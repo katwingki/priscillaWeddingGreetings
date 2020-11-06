@@ -17,12 +17,14 @@ video {
 h1 {
   text-align: center;
   color: #fbfae4;
-  padding: 1%;
+  padding-top: 3%;
 }
+
 h2 {
   text-align: center;
   color: #fbfae4;
-  padding: 1%;
+  padding: 2%;
+  margin-bottom: 1rem;
 }
 
 .cards__container {
@@ -133,6 +135,9 @@ h2 {
 @media only screen and (min-width: 1024px) {
   .cards__items {
     display: flex;
+  }
+  .single__item {
+    margin-left: 15rem;
   }
 }
 

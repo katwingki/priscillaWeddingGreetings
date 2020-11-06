@@ -25,7 +25,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
              <Link to="/ourGreetings" className='nav-links' onClick={closeMobileMenu}>
-              我们的㊗️福
+              {`我们的 ㊗️ 福`}
              </Link>
             </li>
          </ul>
