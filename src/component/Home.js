@@ -1,6 +1,6 @@
 import React from 'react'
-import Greeting from '../Greeting'
-import MainSection from '../mainSection'
+import Greeting from './Greeting'
+import MainSection from './mainSection'
 import '../../App.css';
 
 function Home() {

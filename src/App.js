@@ -2,7 +2,6 @@ import './App.css';
 import Navbar from './component/Navbar';
 import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
 import Home from './component/pages/Home';
-import MainSection from './component/MainSection';
 import ourGreetings from './component/ourGreetings';
 
 

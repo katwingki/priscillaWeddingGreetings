@@ -30,7 +30,7 @@ function ourGreetings() {
         <h2>有人在基督裏,他就是新造的了,舊事已過,都變成新的了.  原能與這段经文與你共享,無論以往的日子是怎樣的过都已成過去,不要再回頭望了,新嘅日子來臨就係一個新人,新嘅開始有新希望,但願日子過得充實同埋愉快。</h2>
         <ul className='cards__items'>
           <Greeting
-            url="https://youtu.be/HMF3oT4jIaE"
+            url="https://youtu.be/PFf-rZA31l0"
             text='哥林多前書:13:7 凡事包容，凡事相信，凡事盼望，凡事忍耐。'
             label='Auntie Tammy的祝福'
           />
