@@ -1,7 +1,7 @@
-import React from 'react'
-import Greeting from './Greeting'
-import MainSection from './mainSection'
-import '../../App.css';
+import React from 'react';
+import Greeting from './Greeting';
+import MainSection from './mainSection';
+import '../App.css';
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
       <MainSection />
       <Greeting />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
