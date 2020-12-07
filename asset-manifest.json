@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/priscillaWeddingGreetings/static/css/main.9070579b.chunk.css",
+    "main.js": "/priscillaWeddingGreetings/static/js/main.892587cb.chunk.js",
+    "main.js.map": "/priscillaWeddingGreetings/static/js/main.892587cb.chunk.js.map",
+    "runtime-main.js": "/priscillaWeddingGreetings/static/js/runtime-main.dffd964f.js",
+    "runtime-main.js.map": "/priscillaWeddingGreetings/static/js/runtime-main.dffd964f.js.map",
+    "static/js/2.57a072c6.chunk.js": "/priscillaWeddingGreetings/static/js/2.57a072c6.chunk.js",
+    "static/js/2.57a072c6.chunk.js.map": "/priscillaWeddingGreetings/static/js/2.57a072c6.chunk.js.map",
+    "index.html": "/priscillaWeddingGreetings/index.html",
+    "static/css/main.9070579b.chunk.css.map": "/priscillaWeddingGreetings/static/css/main.9070579b.chunk.css.map",
+    "static/js/2.57a072c6.chunk.js.LICENSE.txt": "/priscillaWeddingGreetings/static/js/2.57a072c6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dffd964f.js",
+    "static/js/2.57a072c6.chunk.js",
+    "static/css/main.9070579b.chunk.css",
+    "static/js/main.892587cb.chunk.js"
+  ]
+}
